@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - a function that prints a string
  * Return: always sucess
 */
