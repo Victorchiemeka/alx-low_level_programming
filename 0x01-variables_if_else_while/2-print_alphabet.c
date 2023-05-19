@@ -1,14 +1,17 @@
 #include <stdio.h>
 /**
- * main - function that prints only 
+ * main - a function that prints a to z
  * Return: always sucess
  */
 int main(void)
 {
-	//char c = 'a';
-	
-	for(int i =0; i<25; i++)
+	char c = 'a';
+	char z = 'z';
+
+	while (c <= z)
 	{
-		printf("%d",i);
+		putchar(c);
+		c++;
 	}
+	putchar('\n');
 }
