@@ -13,6 +13,6 @@ int print_last_digit(int n)
 	total = n % 10;
 	if (total < 0)
 		total = -total;
-	putchar(total + '0');
+	_putchar(total + '0');
 	return (total);
 }
