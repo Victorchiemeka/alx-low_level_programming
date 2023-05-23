@@ -4,10 +4,8 @@
  * @int: the type of the returned value
  * Return: the value of compute
  */
-int add(int, int)
+int add(int b, int a)
 {
-	int a;
-	int b;
 	int compute;
 
 	compute = a + b;
