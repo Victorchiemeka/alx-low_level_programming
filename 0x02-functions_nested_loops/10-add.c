@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - a function that adds two
- * @int: the type of the returned value
+ * @b: the parameter of the function
+ * @a: the parameter:
  * Return: the value of compute
  */
 int add(int b, int a)
