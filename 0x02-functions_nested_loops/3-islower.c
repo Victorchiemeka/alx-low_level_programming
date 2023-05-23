@@ -2,13 +2,12 @@
 #include <ctype.h>
 /**
  * _islower - return a lower character
+ * @c: a parameter for the function
  * Return: the function
  */
 int _islower(int c)
 {
-	int r;
-
-	if (islower(r))
+	if (islower(c))
 	{
 		return (1);
 	}
