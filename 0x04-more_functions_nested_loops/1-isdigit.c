@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _isdigit - a function that prints only digit
  * @c: parameter for the function
@@ -14,4 +15,5 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
+	return (0);
 }
