@@ -3,7 +3,7 @@
 /**
  * _isdigit - a function that prints only digit
  * @c: parameter for the function
- * Return: return if true and 0 if false
+ * Return: return 1 if true and 0 if false
  */
 int _isdigit(int c)
 {
@@ -15,5 +15,4 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
-	return (0);
 }
