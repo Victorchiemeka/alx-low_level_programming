@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_most_numbers - a function that prints and exclude some number
- * Return: always sucess
  */
 void print_most_numbers(void)
 {
