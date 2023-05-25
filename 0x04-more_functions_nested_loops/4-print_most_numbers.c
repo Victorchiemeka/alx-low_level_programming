@@ -2,17 +2,17 @@
 /**
  * print_most_numbers - a function that prints and exclude some number
  *
- * Return: always sucess
+ * Return: always suces/s
  */
 void print_most_numbers(void)
 {
-	int i;
+	int c;
 
-	while (i <= 9)
+	while (c <= 9)
 	{
 		if (i != 2 && i != 4)
 		{
-			_putchar(i + '0');
+			_putchar(c);
 		}
 		i++;
 	}
