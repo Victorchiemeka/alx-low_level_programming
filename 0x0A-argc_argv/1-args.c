@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * prints the number of arguement passed 
+ * main - n prints the number of arguement passed
  * @argc: the number of arguement passed
  * @argv: array of the string
  * Return: always sucess
