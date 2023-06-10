@@ -1,9 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - the function that take arguement
+ * @argc: parameter
+ * @argv: another parameter
+ * Return: always zero
+ */
 
 int main(int argc, char *argv[])
 {
 	int first, second, final;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
