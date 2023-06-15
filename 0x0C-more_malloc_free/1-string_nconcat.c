@@ -6,7 +6,7 @@
  * @s1: first string
  * @s2: second string
  * @n: the number
- * Return: the pointer 
+ * Return: the pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -17,9 +17,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (length1 = 0; s1[length1] != '\0'; length1++);
-	for (leng = 0; s2[leng] != '\0'; leng++);
-
+	length1 = strlen(s1);
+	leng = strlen(s2);
 	if (n < leng)
 		all = malloc(sizeof(char) * (length1 + n + 1));
 	else
