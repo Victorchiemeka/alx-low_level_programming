@@ -21,6 +21,8 @@ char *str_concat(char *s1, char *s2)
 	length1 = strlen(s1);
 	length2 = strlen(s2);
 	array = (char *)malloc(sizeof(char) * length1 + length2 + 1);
+	if (array == NULL)
+		return NULL;
 	strcpy(array, s1); /** copying the first  string to the array */
 	strcat(array, s2); /** concatenating the second string to the array */
 	return (array);
