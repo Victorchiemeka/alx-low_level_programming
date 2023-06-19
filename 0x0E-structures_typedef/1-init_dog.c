@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "dog.h"
 #include <stdlib.h>
 /**
@@ -9,8 +10,9 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d->name[sizeof(d->name) - 1] = '\0';
-	d->age = age;
-	strncpy(d->owner, owner, sizeof(d->owner) - 1);
-	d->owner[sizeof(d->owner) - 1] = '\0';
+	if (!d)
+                d = malloc(sizeof(dog_t));
+        d->name = name;
+        d->age = age;
+        d->owner = owner;
 }
