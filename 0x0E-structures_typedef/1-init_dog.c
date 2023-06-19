@@ -7,12 +7,13 @@
  * @name: the parameter
  * @age: parameter
  * @owner: paramter
+ * Return: void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (!d)
-                d = malloc(sizeof(dog_t));
-        d->name = name;
-        d->age = age;
-        d->owner = owner;
+		d = malloc(sizeof(dog_t));
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
