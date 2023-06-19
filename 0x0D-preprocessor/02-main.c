@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - a function that prints the file
- * Return: always sucess 
+ * Return: always sucess
  */
 int main(void)
 {
