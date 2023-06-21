@@ -7,5 +7,8 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
+	/*If there is no adress in arguments, quit*/
+	if (!name || !f)
+		return;
 	(*f)(name);
 }
