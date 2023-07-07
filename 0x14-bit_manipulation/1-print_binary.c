@@ -12,7 +12,7 @@ void print_binary(unsigned long int n)
 
 	while (bitmask > 0)
 	{
-		if ((n & mask) != 0)
+		if ((n & bitmask) != 0)
 		{
 			leadingZeros = 0;
 			printf("1");
@@ -21,7 +21,7 @@ void print_binary(unsigned long int n)
 		{
 			printf("0");
 		}
-		mask >>= 1;
+		bitmask >>= 1;
 	}
 	if (leadingZeros)
 	{
